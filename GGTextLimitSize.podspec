@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint Publib.podspec' to ensure this is a
+#  Be sure to run `pod spec lint GGTextLimitSize.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -7,26 +7,26 @@
 #
 
 Pod::Spec.new do |spec|
-  s.name         = "GGTextLimitSize"
-  s.version      = "0.0.1"
-  s.ios.deployment_target = '8.0'
-  s.summary      = "计算文本的高度，计算限制文本行数的高度"
-  s.homepage     = "https://github.com/TDGYL/textLimitHeight"
-  s.social_media_url = 'https://www.baidu.com'
-  s.license      = "MIT"
-  # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.author       = { "zyq" => "zhangyqyx@163.com" }
-  s.source       = { :git => 'https://github.com/TDGYL/textLimitHeight.git', :tag => s.version}
-  s.requires_arc = true
-  s.source_files = 'runtime/*'
+
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  These will help people to find your library, and whilst it
   #  can feel like a chore to fill in it's definitely to your advantage. The
   #  summary should be tweet-length, and the description more in depth.
+  #
 
-  spec.summary      = "A short description of Publib."
-
+  spec.name         = "GGTextLimitSize"
+  spec.version      = "0.0.1"
+  spec.ios.deployment_target = '8.0'
+  spec.summary      = "计算文本的高度，计算限制文本行数的高度"
+  spec.homepage     = "https://github.com/TDGYL/textLimitHeight"
+  spec.social_media_url = 'https://www.baidu.com'
+  spec.license      = "MIT"
+  # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.author       = { "guyilin" => "13634150361@163.com" }
+  s.source       = { :git => 'https://github.com/TDGYL/textLimitHeight.git', :tag => s.version}
+  s.requires_arc = true
+  s.source_files = 'runtime/*'
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
@@ -35,7 +35,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/Publib"
+  spec.homepage     = "http://EXAMPLE/GGTextLimitSize"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -87,7 +87,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/Publib.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "http://EXAMPLE/GGTextLimitSize.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
