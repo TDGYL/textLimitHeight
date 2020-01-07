@@ -23,8 +23,8 @@ Pod::Spec.new do |spec|
   spec.social_media_url = 'https://www.baidu.com'
   spec.license      = "MIT"
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.author       = { "guyilin" => "13634150361@163.com" }
-  s.source       = { :git => 'https://github.com/TDGYL/textLimitHeight.git', :tag => s.version}
+  spec.author       = { "guyilin" => "13634150361@163.com" }
+  spec.source       = { :git => 'https://github.com/TDGYL/textLimitHeight.git', :tag => s.version}
   s.requires_arc = true
   s.source_files = 'runtime/*'
   # This description is used to generate tags and improve search results.
@@ -60,7 +60,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "顾宜林的电脑" => "1456496561@qq.com" }
+  # spec.author             = { "顾宜林的电脑" => "1456496561@qq.com" }
   # Or just: spec.author    = "顾宜林的电脑"
   # spec.authors            = { "顾宜林的电脑" => "1456496561@qq.com" }
   # spec.social_media_url   = "https://twitter.com/顾宜林的电脑"
@@ -87,7 +87,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/GGTextLimitSize.git", :tag => "#{spec.version}" }
+  # spec.source       = { :git => "http://EXAMPLE/GGTextLimitSize.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
